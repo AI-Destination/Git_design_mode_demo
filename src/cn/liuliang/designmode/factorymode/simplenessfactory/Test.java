@@ -2,6 +2,10 @@ package cn.liuliang.designmode.factorymode.simplenessfactory;
 
 /**
  * 简单工厂测试
+ * 简单工厂大概模式：
+ * 一个工厂：负责创建对象（指定接口的所有对象）
+ * 一个指定接口：特定功能方法的接口
+ * 多个实现类接口的对象
  *
  * @author liuliang-刘亮
  * @date 2020/6/10 - 9:20
@@ -12,7 +16,7 @@ public class Test {
         ICourse course = CourseFactory.getCourse("Java");
         if (course != null) {
             course.giveLessons();
-        }else {
+        } else {
             System.out.println("没有相关授课");
         }
 

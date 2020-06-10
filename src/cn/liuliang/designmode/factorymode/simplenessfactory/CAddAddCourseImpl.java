@@ -6,7 +6,7 @@ package cn.liuliang.designmode.factorymode.simplenessfactory;
  * @author liuliang-刘亮
  * @date 2020/6/10 - 9:14
  */
-public class CAddAddCounseImpl implements ICourse {
+public class CAddAddCourseImpl implements ICourse {
     @Override
     public void giveLessons() {
         System.out.println("C++授课方法");
