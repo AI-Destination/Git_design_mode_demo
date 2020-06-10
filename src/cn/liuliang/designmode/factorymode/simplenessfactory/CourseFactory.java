@@ -18,9 +18,10 @@ public class CourseFactory {
             return new JavaCourseImpl();
         } else if ("python".equals(name)) {
             return new PythonCounseImpl();
-        } else if ("C++".equals(name)){
-            return null;
+        } else if ("C++".equals(name)) {
+            return new CAddAddCounseImpl();
         }
+        return null;
     }
 
     /**
